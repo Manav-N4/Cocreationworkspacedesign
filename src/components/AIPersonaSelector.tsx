@@ -47,11 +47,10 @@ export function AIPersonaSelector({ value, onChange }: AIPersonaSelectorProps) {
 
   return (
     <div className="flex items-center gap-3 text-sm">
-      <span className="text-muted-foreground">AI Persoa:</span>
+      <span className="text-muted-foreground">AI Persona:</span>
       <Select value={value} onValueChange={onChange}>
         <SelectTrigger className="w-[200px] h-9 border-border">
           <div className="flex items-center gap-2">
-            <Icon className="w-4 h-4" />
             <SelectValue />
           </div>
         </SelectTrigger>
